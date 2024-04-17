@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metaplex-nft.ts",
+  "scripts": {
+    "start": "ts-node-dev metaplex-nft.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@solana/web3.js": "^1.91.1",
+    "fs": "^0.0.1-security",
+    "ts-node-dev": "^2.0.0"
+  }
+}
